@@ -1,0 +1,54 @@
+[
+  {
+    "images": [
+      "C",
+      "C++",
+      "CSS3",
+      "Javascript",
+      "Github",
+      "HTML5",
+      "MySQL",
+      "PHP",
+      "Postman",
+      "Python",
+      "SQLServer",
+      "VS",
+      "VSCode"
+
+    ],
+    "projects": {
+      "project_1": {
+        "name": "Game Goku",
+        "description": "Este es un juego basado en el anime Goku",
+        "github": "https://github.com/Andysitoop/Game-Goku"
+      },
+      "project_2": {
+        "name": "Multas de Transito",
+        "description": "Proyecto de semestre, realizamos un sistema de guardado y consultas de multas en C#",
+        "github": "https://github.com/Andysitoop/Multas-de-Transito"
+      },
+      "project_3": {
+        "name": "Reconocimiento de voz",
+        "description": "Esta es una pagina de reconocimiento de voz",
+        "github": "https://github.com/Andysitoop/Reconocimiento-de-voz"
+      },
+      "project_4": {
+        "name": "Pagina de Hotel",
+        "description": "Pagina Web de un Hotel realizada con Html",
+        "github": "https://github.com/Andysitoop/Pagina-de-Hotel"
+      },
+      "project_5": {
+        "name": "Flores Amarillas",
+        "description": "Flores amarillas en Javascript",
+        "github": "https://github.com/Andysitoop/Flores-amarillas-Jjiji"
+      },
+      "project_6": {
+        "name": "Game snake",
+        "description": "Un juego de snake implementado en HTML, CSS y JavaScript",
+        "github": "https://github.com/Andysitoop/Game-Snake"
+      }
+
+      }
+    }
+  
+]

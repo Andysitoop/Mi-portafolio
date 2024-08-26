@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Portafolio de proyectos y contacto para Anderson Terraza">
+  <title>AndersonTerraza - Portafolio</title>
+  <link rel="stylesheet" href="css/style.css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header class="logo">
+    <a class="logo" href="#">Portafolio</a>
+    <div class="menuToggle"></div>
+    <ul class="nav">
+      <li class="active"><a href="#home">Inicio</a></li>
+      <li><a href="#tech">Tecnologías</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </header>
+
+  <!--HOME-->
+  <section id="home">
+    <div class="content">
+      <h2>Anderson Terraza</h2>
+      <p>Junior programmer, with knowledge in web development and programming, I also like cybersecurity.</p>
+      <a class="btn" href=".\assets\CV ANDERSON TERRAZA.pdf " target="_blank">Descargar CV</a>
+    </div>
+    <img class="objects" src="assets\images\objects.png" alt="patrón triangulos">
+    <img class="men" src="assets\images\men.jpg" alt="imagen IA">
+  </section>
+
+  <!--Tecnologias-->
+  <section id="tech">
+    <div class="secText">
+      <h2>Tecnologias</h2>
+    </div>
+    <div class="logos">
+      <div class="logos-slide">
+      </div>
+    </div>
+  </section>
+
+  <!--Proyectos-->
+  <section id="projects">
+    <div class="secText">
+      <h2>Proyectos</h2>
+    </div>
+
+    <div class="content">
+
+    </div>
+  </section>
+
+  <!--Contacto-->
+  <section id="contact">
+    <div class="secText">
+      <h2>Contacto</h2>
+    </div>
+    <!--content-->
+    <div class="content">
+      <!--left-side-->
+      <div class="left-side">
+        <div class="details">
+          <i class="fa-solid fa-location-dot rotate"></i>
+          <h2>Guatemala, Guatemala</h2>
+        </div>
+        <div class="details">
+          <i class="fa-solid fa-envelope rotate"></i>
+          <h2>terrazaanderson1@gmail.com</h2>
+          <h3>aterrazac@miumg.edu.gt</h3>
+        </div>
+        <div class="details">
+          <div class="redes">
+            <a href="https://www.instagram.com/ivxncitooo1" target="_blank"><i
+                class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.x.com/Ivancitoo67" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/anderson-terraza-83b268289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.github.com/Andysitoop" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <!--right-side-->
+      <div class="right-side">
+        <div class="topic-text">Enviame un mensaje</div>
+        <p>Si tienes alguna duda, contactarme para algún proyecto o simplemente hacer networking, puedes enviar un
+          mensaje por medio del siguiente formulario.</p>
+
+        <!--form-->
+        <form action="https://formsubmit.co/terrazaanderson1@gmail.com " method="POST">
+          <div class="input-box">
+            <input type="text" placeholder="Nombre" name="nombre">
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Email" name="email">
+          </div>
+          <div class="input-box message-box">
+            <textarea name="mensaje"></textarea>
+          </div>
+          <div class="button">
+            <button class="btn" type="submit">Enviar</button>
+          </div>
+
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+          <input type="hidden" name="_subject" value="Nuevo mensaje recibido">
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="js\logic.js"></script>
+</body>
+
+</html>
