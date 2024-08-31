@@ -51,6 +51,11 @@
         "name": "Bot de Discord",
         "description": "BOT de discord con funcion para musica realizado en JavaScript",
         "github": "https://github.com/Andysitoop/Game-Snake"
+      },
+      "project_8": {
+        "name": "Pruebas Java",
+        "description": "Son trabajos realizados en Java de la Universidad",
+        "github": "https://github.com/Andysitoop/Pruebas-Java-"
       }
 
       }
