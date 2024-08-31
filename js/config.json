@@ -46,6 +46,11 @@
         "name": "Game snake",
         "description": "Un juego de snake implementado en HTML, CSS y JavaScript",
         "github": "https://github.com/Andysitoop/Game-Snake"
+      },
+      "project_7": {
+        "name": "Bot de Discord",
+        "description": "BOT de discord con funcion para musica realizado en JavaScript",
+        "github": "https://github.com/Andysitoop/Game-Snake"
       }
 
       }
