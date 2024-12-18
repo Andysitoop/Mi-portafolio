@@ -61,8 +61,16 @@
         "name": "AA-WEB1",
         "description": "Formulario realizado en Java y Apache, en la universidad",
         "github": "https://github.com/Andysitoop/AA-WEB1"
-      }
-      }
+      }, 
+      "project_10" : {
+        "name": "Petshop Java",
+        "description": "Formulario realizado en Java y Apache",
+        "github": "https://github.com/Andysitoop/Petshop-Java"
+      },
+      "project_11" : {
+        "name": "Control de Inventario",
+        "description": "Formulario realizado en Java y Apache, Base de Datos trabajada en Sql",
+        "github": "https://github.com/Andysitoop/Control-De-Inventario"
     }
   
 ]
