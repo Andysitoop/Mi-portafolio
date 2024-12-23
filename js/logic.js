@@ -53,7 +53,7 @@ for (const key in projects) {
     const card = document.createElement('div');
     card.classList.add('card');
 
-    let cardContent = `<img src="assets/images/default.jpg" alt="Default image">`;
+    let cardContent = `<img src="assets/images/default.jpg" alt="default image">`;
     cardContent += `<div class="card-content">`;
     cardContent += `<div class="card-title"><h3>${project.name}</h3></div>`;
     cardContent += `<div class="card-description"><p>${project.description}</p></div>`;
